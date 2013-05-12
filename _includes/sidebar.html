@@ -1,0 +1,7 @@
+<h3>About Me</h3>
+<p>I'm a cool lady who don't take no guff from NOBODY, ya dig? Anyway this text just goes on and on and on and on and on and on ad infinitum because i can't just shut my blathering mouth. Please, someone stick a pie in here before i expel all the air in my body and die.</p>
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
