@@ -1,8 +1,9 @@
 ---
-title: hey pal
-layout: default
+layout: home
 ---
-# Hello World
 
-Dudes I assure you that this website is of the utmost quality.
-Don\'t believe me? WTF
+<h1 class="brand">Jordan Killpack</h1> 
+
+Web developer, nerd, and all-around classy lady.
+
+[About](/about) | [Classic](http://www.killpack.biz)

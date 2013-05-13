@@ -1,0 +1,10 @@
+<h3>Recent Thoughts:</h3>
+<ul class="icons-ul">
+{% if site.posts.size > 0 %}
+  {% for post in site.posts limit: 5 %}
+    <li><i class="icon-li icon-asterisk"></i><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+{% else %}
+  <li><i class="icon-li icon-frown"></i>None</li> 
+{% endif %}
+</ul>
