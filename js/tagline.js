@@ -6,7 +6,8 @@ $(function() {
     "For when quality is a priority.",
     "Sheer perfection.",
     "The epitome of class.",
-    "A zenith."
+    "A zenith.",
+    "Truly unparalleled."
   ];
 
   $("#tagline").text(taglines[Math.floor(Math.random() * taglines.length)]);
