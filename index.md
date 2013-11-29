@@ -1,9 +1,14 @@
 ---
 layout: home
 ---
-
 <h1 class="brand">Jordan Killpack</h1> 
 
-Web developer, weirdo, and all-around classy lady.
+<div>
+  &ldquo; 
+  <span id="tagline"></span>
+  &rdquo;
+</div>
 
-[About](/about) | [Classic](http://www.killpack.biz)
+
+<br/><br/>
+[(Classic)](http://www.killpack.biz)
