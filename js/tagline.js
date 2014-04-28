@@ -1,4 +1,5 @@
 $(function() {
+
   var taglines = [
     "Simply the best.",
     "The ultimate in luxury.",
@@ -10,6 +11,15 @@ $(function() {
     "Truly unparalleled."
   ];
 
-  $("#tagline").text(taglines[Math.floor(Math.random() * taglines.length)]);
+  var taglineNumber = Math.floor(Math.random() * taglines.length);
+
+  var updateTagline = function() {
+    $("#tagline").text(taglines[taglineNumber]);
+    taglineNumber = (taglineNumber + 1) % taglines.length;
+  };
+
+  updateTagline();
+
+  $("#more").click(updateTagline);
 
 });
