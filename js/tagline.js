@@ -1,4 +1,4 @@
-$(function() { 
+$(function() {
   var taglines = [
     "Simply the best.",
     "The ultimate in luxury.",
@@ -11,5 +11,5 @@ $(function() {
   ];
 
   $("#tagline").text(taglines[Math.floor(Math.random() * taglines.length)]);
-  
+
 });
